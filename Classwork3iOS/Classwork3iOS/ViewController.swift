@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     @IBAction func Pressbutton(_ sender: Any) {
         Namelabel.text = ""
         
-        var name = NameTextfield.text!
+        let name = NameTextfield.text!
         
         
         // MARK: -  قم باستدعاء الداله هنا
